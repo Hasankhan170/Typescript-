@@ -12,6 +12,20 @@
 // let isLoggedIn:boolean = true;
 // console.log(isLoggedIn);
 
+// function greetUser(num1:number,num2:number){
+//     return num1 + num2
+// }
+// console.log(greetUser(20,12));
+
+// let arr:string[] = ['hasan']
+// console.log(arr);
+
+// let stringAndNumber:(string | number)[] = ['hasan' ,20]
+// stringAndNumber = ['ahsan',43]
+// console.log(stringAndNumber);
+
+
+
 
 
 
