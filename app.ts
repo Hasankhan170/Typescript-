@@ -1,9 +1,12 @@
 // console.log('hasan');
 
+
+
+
 //-----Type Annotations-----//
 
+
 // let userName:string = 'hasan';
-// // userName = 20
 // console.log(userName);
 
 // let num:number = 20;
@@ -16,6 +19,30 @@
 //     return num1 + num2
 // }
 // console.log(greetUser(20,12));
+
+
+
+//-----Type Inference-----//
+
+
+// let userName = 'hasan';
+// console.log(userName);
+
+
+// let age = 20;
+// console.log(age);
+
+// let isLoggedIn = false;
+// console.log(isLoggedIn);
+
+
+
+
+
+
+
+//-----Type Aliases-----//
+
 
 // let arr:string[] = ['hasan']
 // console.log(arr);
