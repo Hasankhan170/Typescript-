@@ -21,6 +21,14 @@
 // console.log(greetUser(20,12));
 
 
+// function greetUsers(str1:string,age:number){
+//     console.log(`hello my name is ${str1} and my age is ${age}`);
+// }
+
+// greetUsers('hasan' ,21)
+
+
+
 
 //-----Type Inference-----//
 
@@ -39,9 +47,36 @@
 
 
 
-
-
 //-----Type Aliases-----//
+
+
+// type user = number;
+// let uderId:user = 32;
+// console.log(uderId);
+
+
+// type user = string;
+// let userId:user = 'hasan'
+// console.log(userId);
+
+// type user = {
+//     userName : string;
+//     age : number;
+//     isLogged : boolean;
+//     lastName? : string
+// }
+// let obj : user = {
+//     userName : 'hasan',
+//     age : 21,
+//     isLogged : true
+// }
+
+// obj.lastName = 'khan'
+
+// type fruit = (string | number)[]
+
+// let fruits:fruit = ['apple',2, 'banana', 3]
+// console.log(fruits);
 
 
 // let arr:string[] = ['hasan']
