@@ -30,6 +30,7 @@
 
 
 
+
 //-----Type Inference-----//
 
 
@@ -48,6 +49,7 @@
 
 
 //-----Type Aliases-----//
+
 
 
 // type user = number;
@@ -87,6 +89,7 @@
 // console.log(stringAndNumber);
 
 
+
 //-----Union Type-----//
 
 
@@ -105,8 +108,50 @@
 
 
 
+//-----Interfaces-----//
 
 
+// interface Obj {
+//     userName : string;
+//     age : number;
+//     isLogged : boolean;
+//     lastName?: string;
+// }
+
+// let obj:Obj = {
+//     userName : 'hasan',
+//     age : 21,
+//     isLogged : true
+// }
+
+// console.log(obj);
+
+// obj.lastName = 'khan';
+
+// console.log(obj);
+
+
+
+
+//-----Interfaces vs Type Aliases-----//
+
+
+
+// interface User {
+//     userName : string;
+//     age : number;
+// }
+
+// interface User {
+//     isLogged : boolean;
+// }
+
+// const user : User = {
+//     userName : 'AHSAN',
+//     age : 20,
+//     isLogged : true
+// }
+// console.log(user);
 
 
 
