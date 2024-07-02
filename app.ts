@@ -87,6 +87,26 @@
 // console.log(stringAndNumber);
 
 
+//-----Union Type-----//
+
+
+// type user = (number | string | boolean)[];
+
+// const hasan:user = ['hasan', 20, false];
+
+// console.log(hasan);
+
+
+// hasan[0] = 'ahsan';
+// hasan[1] = 25;
+// hasan[2] = true;
+
+// console.log(hasan);
+
+
+
+
+
 
 
 
