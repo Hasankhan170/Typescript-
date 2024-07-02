@@ -154,5 +154,46 @@
 // console.log(user);
 
 
+// interface Furits {
+//     mango : string;
+//     price : undefined;
+//     orange : string;
+// }
+
+// interface User extends Furits {
+//     firstName : string;
+//     lastName : string;
+// }
+
+// let userId:User ={
+//     firstName : 'ahsan',
+//     lastName : 'khan',
+//     mango : 'green',
+//     price : undefined,
+//     orange : 'orange'
+// }
+// console.log(userId);
 
 
+
+
+// type Fruits = {
+//     mango : string;
+//     price : number;
+//     orange : string;
+// }
+
+// type User = Fruits & {
+//     firstName : string;
+//     lastName : string;
+// }
+
+// const uderId:User = {
+//     firstName : 'ahsan',
+//     lastName : 'khan',
+//     mango : 'green',
+//     price : 4555,
+//     orange : 'orange'
+// }
+
+// console.log(uderId);
