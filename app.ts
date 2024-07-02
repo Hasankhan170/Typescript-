@@ -133,6 +133,7 @@
 
 
 
+
 //-----Interfaces vs Type Aliases-----//
 
 
@@ -152,6 +153,8 @@
 //     isLogged : true
 // }
 // console.log(user);
+
+
 
 
 // interface Furits {
@@ -197,3 +200,40 @@
 // }
 
 // console.log(uderId);
+
+
+
+
+//-----Enums-----//
+
+
+// enum CardinalDirections {
+//   North = 50,
+//   East = 45,
+//   South = 12,
+//   West = 32,
+// }
+
+// let current = CardinalDirections.West
+
+// console.log(current);
+
+
+
+//-----Generics-----//
+
+
+
+// function greetUser(arg:string){
+//     return arg
+// }
+
+// console.log(greetUser('ABBU OF JS'));
+
+
+
+// function identity<T>(agr:T){
+//     return {agr}
+// }
+
+// console.log(identity([21]));
